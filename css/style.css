@@ -1,3 +1,14 @@
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #cc0000;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    padding: 1em;
+  }
+  
 #nav-bar {
     overflow: hidden;
     background-color: #333;
@@ -6,11 +17,4 @@
     width: 100%; /* Full width */
   }
 
-  #nav-link {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
+  
