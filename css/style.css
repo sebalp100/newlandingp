@@ -24,7 +24,11 @@
     padding: 8px 2px;
   }
 
-  
+  @media (max-width: 600px) {
+    header {
+      flex-wrap: wrap;
+    }
+  }
   
 #nav-bar {
     overflow: hidden;
