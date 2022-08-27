@@ -1,7 +1,16 @@
 
  body {
     background-color: rgb(230, 217, 201);
+    align-items: center;
     }
+#form {
+        padding-top: 7em;
+        padding-bottom: 2em;
+        padding-left: 45%;
+        align-items: center;
+        left: 50%;
+     }
+    
  
  header {
     position: fixed;
@@ -12,29 +21,20 @@
     min-height: 30px;
     justify-content: space-around;
     background-color: rgb(230, 217, 201);
-    color: white;
-    font-family: 'Exo 2', sans-serif;
     padding: 8px 2px;
   }
+
+  
   
 #nav-bar {
     overflow: hidden;
     background-color: #rgb(230, 217, 201)33;
-    position: fixed; /* Set the navbar to fixed position */
+    position: fixed; 
     top: 0;
-    left: 80%; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
+    left: 80%; 
+    width: 100%;
   }
 
   #header-img {
     align-items:flex-start
-
-  .nav-link {
-    align-items: center;
   }
-
-  #form {
-    padding-top: 15em;
-  }
-
-  
