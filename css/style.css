@@ -1,7 +1,16 @@
-html{
+
+ #something {
     text-align: center;
+ }
+
+#somethinmore {
+    align-items: center;
+    padding-bottom: 2em;
+    padding-top: 2em;
 }
- 
+ #form{
+    text-align: center;
+ }
  body {
     background-color: rgb(230, 217, 201);
     
@@ -12,8 +21,7 @@ html{
         align-items: center;
         
      }
-    
- 
+
  header {
     position: fixed;
     width: 100%;
@@ -32,18 +40,17 @@ html{
     }
   }
   
+ 
 #evenmore {
     border: 3px;
+    border-radius: 2px;
+    text-align: center;
 }
 #nav-bar {
     overflow: hidden;
     background-color: #rgb(230, 217, 201)33;
     position: fixed; 
     top: 0;
-    left: 40%;
+    left: 80%;
     width: 100%;
-  }
-
-  #header-img {
-    align-items:flex-start
   }
