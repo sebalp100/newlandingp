@@ -1,14 +1,16 @@
-
+html{
+    text-align: center;
+}
+ 
  body {
     background-color: rgb(230, 217, 201);
-    align-items: center;
+    
     }
 #form {
         padding-top: 7em;
         padding-bottom: 2em;
-        padding-left: 45%;
         align-items: center;
-        left: 50%;
+        
      }
     
  
@@ -30,12 +32,15 @@
     }
   }
   
+#evenmore {
+    border: 3px;
+}
 #nav-bar {
     overflow: hidden;
     background-color: #rgb(230, 217, 201)33;
     position: fixed; 
     top: 0;
-    left: 80%; 
+    left: 40%;
     width: 100%;
   }
 
